@@ -17,7 +17,7 @@ class HandBboxDataset(Dataset):
     def __init__(self, annot_dir, transform=None):
         """
         Args:
-            annot_dir (string): Directory with all the xml files.
+            annot_dir (string): Directory with all the xml files. Doesn't matter if it is organized : /annot_dir/P425/2020_01_01/10/timestamp.xml
             transform (callable, optional): Optional transform to be applied
                 on a sample.
         """
